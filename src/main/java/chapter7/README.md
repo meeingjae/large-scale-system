@@ -50,6 +50,7 @@
 ## 티켓 서버(ticket server)
 
 * Auto Increment 기능을 하는 중앙 서버를 두고, 각 어플리케이션 서버에서 중앙 서버에게 ID 값을 요청한다
+* [flickr 의 티켓 서버 사용 예시](https://code.flickr.net/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/)
 
 ### 티켓 서버의 장점
 

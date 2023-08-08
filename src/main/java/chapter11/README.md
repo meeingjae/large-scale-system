@@ -48,7 +48,7 @@
 
 ## 피드 발행 시스템
 
-![chapter11-피드-발행-시스템.png](..%2F..%2F..%2F..%2Fimg%2Fchapter11-%ED%94%BC%EB%93%9C-%EB%B0%9C%ED%96%89-%EC%8B%9C%EC%8A%A4%ED%85%9C.png)
+![피드_발행_시스템.png](..%2F..%2F..%2F..%2Fimg%2Fchapter11%2F%ED%94%BC%EB%93%9C_%EB%B0%9C%ED%96%89_%EC%8B%9C%EC%8A%A4%ED%85%9C.png)
 
 * 사용자
     * 모바일 앱이나 브라우저에서 새 포스팅을 올리는 주체
@@ -110,7 +110,7 @@
 * 단점
     * 뉴스피드 읽기에 많은 시간을 소모
 
-![chapter11-포스팅-전송-서비스.png](..%2F..%2F..%2F..%2Fimg%2Fchapter11-%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%A0%84%EC%86%A1-%EC%84%9C%EB%B9%84%EC%8A%A4.png)
+![포스팅_전송_서비스.png](..%2F..%2F..%2F..%2Fimg%2Fchapter11%2F%ED%8F%AC%EC%8A%A4%ED%8C%85_%EC%A0%84%EC%86%A1_%EC%84%9C%EB%B9%84%EC%8A%A4.png)
 
 ### 팬아웃 서비스
 
@@ -125,7 +125,7 @@
    * ID 값만 넣는 것은 메모리 효율성을 위함이다
 
 ### 피드 읽기 시스템
-![chapter-11-피드-읽기-흐름도.png](..%2F..%2F..%2F..%2Fimg%2Fchapter-11-%ED%94%BC%EB%93%9C-%EC%9D%BD%EA%B8%B0-%ED%9D%90%EB%A6%84%EB%8F%84.png)
+![피드_읽기_흐름도.png](..%2F..%2F..%2F..%2Fimg%2Fchapter11%2F%ED%94%BC%EB%93%9C_%EC%9D%BD%EA%B8%B0_%ED%9D%90%EB%A6%84%EB%8F%84.png)
 1) 사용자의 요청이 Web 혹은 Mobile로 부터 발생하여, Load Balancer, Web Server를 거쳐 News Feed Service에 도착한다
    * 이미지, 비디오와 같은 항목은 CDN으로부터 가져온다
 2) News Feed Service는 뉴스 피드 캐시에서 포스팅 ID 목록을 가져온다
